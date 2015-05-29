@@ -30,7 +30,7 @@
 		      		<div style="width: 40%; margin-left: 28%" class="col-sm-3">
 		      			 <div class="jumbotron">
 			                 <h4>Predict Demand</h4>
-			                <p> <a id="predict" data-toggle="modal" data-target="#predictModal" class="btn btn-lg btn-primary"  role="button">Predict »</a>
+			                <p> <a id="predict" data-toggle="modal" data-target="#predictModal" class="btn btn-lg btn-primary"  role="button">Predict Â»</a>
 			
 			                </p>
 			            </div>
@@ -40,40 +40,40 @@
 		      <div class="row">
 		      		<div style="width: 40%; margin-left: 5%" class="col-sm-3">
 		      			 <div class="jumbotron">
-			                <h4>Create MLP NN</h4>
-			                <p> <a id="create" class="btn btn-lg btn-primary" data-toggle="modal" data-target="#createModal"  role="button">Create »</a>
+			                 <h4>Cross Validate</h4>
+			                <p> <a id="validate" data-toggle="modal" data-target="#testModal" class="btn btn-lg btn-primary"  role="button">Validate Â»</a>
 			
 			                </p>
 			            </div>
 		      		</div>
 		      		<div style="width: 40%; margin-right: 5%; float: right;" class="col-sm-3 ">
 		      			<div class="jumbotron">
-							  <h4>Upload Datasets</h4>
-							  <p><a id="upload" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#uploadModal"   role="button">Upload »</a></p>
-							</div>
+			                <h4>Create MLP NN</h4>
+			                <p> <a id="create" class="btn btn-lg btn-primary" data-toggle="modal" data-target="#createModal"  role="button">Create Â»</a>
+			
+			                </p>
+			            </div>
 		      		</div>
 		      </div>
 		      <div class="row">
 		      		<div style="width: 40%; margin-left: 5%" class="col-sm-3">
 		      			 <div class="jumbotron">
-			                 <h4>Train your NN</h4>
-			                <p> <a id="train" class="btn btn-lg btn-primary" data-toggle="modal" data-target="#trainModal"  role="button">Train »</a>
-			
-			                </p>
-			            </div>
+							  <h4>Test your NN</h4>
+							  <p><a id="test" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#testModal"   role="button">Test Â»</a></p>
+							</div>
 		      		</div>
 		      		<div style="width: 40%;  margin-right: 5%; float: right;" class="col-sm-3 ">
 		      			<div class="jumbotron">
-							  <h4>Test your NN</h4>
-							  <p><a id="test" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#testModal"   role="button">Test »</a></p>
+							  <h4>Upload Datasets</h4>
+							  <p><a id="upload" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#uploadModal"   role="button">Upload Â»</a></p>
 							</div>
 		      		</div>
 		      </div>
 		      <div class="row">
 		      		<div style="width: 40%; margin-left: 28%" class="col-sm-3">
 		      			 <div class="jumbotron">
-			                 <h4>Cross Validate</h4>
-			                <p> <a id="validate" data-toggle="modal" data-target="#testModal" class="btn btn-lg btn-primary"  role="button">Validate »</a>
+			                 <h4>Train your NN</h4>
+			                <p> <a id="train" class="btn btn-lg btn-primary" data-toggle="modal" data-target="#trainModal"  role="button">Train Â»</a>
 			
 			                </p>
 			            </div>
@@ -339,7 +339,7 @@
 		  <div class="modal-dialog">
 		    <div class="modal-content">
 		     <div class="modal-header">
-		        <h4 class="modal-title" id="predictModalLabel">Demnad Predicted.</h4>
+		        <h4 class="modal-title" id="predictModalLabel">Demand Predicted.</h4>
 		      </div>
 		      <div class="modal-body">
 		       <label for="message-text" class="control-label">Output:</label>
