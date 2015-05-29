@@ -11,9 +11,11 @@
 			  
 			
 			  $("#validate").click(function(){
+				  $("#testModalLabel").html("Validate your MLP network");
 				  testtype="2";
 			  });
 			  $("#test").click(function(){
+				  $("#testModalLabel").html("Test your MLP network");
 				  testtype="1";
 			  });
 			  
